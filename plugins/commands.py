@@ -29,6 +29,8 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('🧿 𝙃𝙚𝙡𝙥', callback_data='help'),
                     InlineKeyboardButton('⚜ 𝘼𝙗𝙤𝙪𝙩', callback_data='about')
+                ],[
+                    InlineKeyboardButton('🔰 𝙈𝙤𝙫𝙞𝙚 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙎𝙩𝙖𝙩𝙪𝙨', url='https://t.me/movierequeststatus')
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -50,6 +52,8 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('🧿 𝙃𝙚𝙡𝙥', callback_data='help'),
                     InlineKeyboardButton('⚜ 𝘼𝙗𝙤𝙪𝙩', callback_data='about')
+                ],[
+                    InlineKeyboardButton('🔰 𝙈𝙤𝙫𝙞𝙚 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙎𝙩𝙖𝙩𝙪𝙨', url='https://t.me/movierequeststatus')
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -96,6 +100,8 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('🧿 𝙃𝙚𝙡𝙥', callback_data='help'),
                     InlineKeyboardButton('⚜ 𝘼𝙗𝙤𝙪𝙩', callback_data='about')
+                ],[
+                    InlineKeyboardButton('🔰 𝙈𝙤𝙫𝙞𝙚 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙎𝙩𝙖𝙩𝙪𝙨', url='https://t.me/movierequeststatus')
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
